@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(SkinnedMeshRenderer))]
 public class Blender : MonoBehaviour
 {
-
+    public float blendShapeMultiplier = 100f;
     int currentBlend = 0;
     int blendShapeCount;
     SkinnedMeshRenderer skinnedMeshRenderer;
@@ -39,7 +39,7 @@ public class Blender : MonoBehaviour
         }
 
         //set the current blend to the specified value
-        skinnedMeshRenderer.SetBlendShapeWeight(currentBlend, weight);
+        skinnedMeshRenderer.SetBlendShapeWeight(currentBlend, weight * blendShapeMultiplier);
 
     }
 
@@ -56,7 +56,7 @@ public class Blender : MonoBehaviour
 
         currentBlend = blendIndex;
 
-        SetBlendWeightOnCurrentShape(currentWeight);
+        SetBlendWeightOnCurrentShape(currentWeight / blendShapeMultiplier);
 
 
     }
