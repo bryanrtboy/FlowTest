@@ -1,7 +1,7 @@
 Using pre-set license
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.1.0b11/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/2021.1.0f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
@@ -12,99 +12,684 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52654
+54845
 Successfully changed project path to: /Users/bryan/Documents/GitHub/FlowTest
 /Users/bryan/Documents/GitHub/FlowTest
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 59.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.1.0b11 (ddf8e7a924bd)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.0b11/Unity.app/Contents/Resources/UnitySubsystems
+Initialize engine version: 2021.1.0f1 (61a549675243)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.0f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/bryan/Documents/GitHub/FlowTest/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2021-03-28 20:34:28.070 Unity[38751:2145763] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
-2021-03-28 20:34:28.070 Unity[38751:2145763] Metal devices available: 2
-2021-03-28 20:34:28.070 Unity[38751:2145763] 0: AMD Radeon Pro 5500M (high power)
-2021-03-28 20:34:28.070 Unity[38751:2145763] 1: Intel(R) UHD Graphics 630 (low power)
-2021-03-28 20:34:28.070 Unity[38751:2145763] Using device AMD Radeon Pro 5500M (high power)
+2021-03-29 11:12:18.520 Unity[42819:2282427] LED Cinema Display preferred device: AMD Radeon Pro 5500M (high power)
+2021-03-29 11:12:18.520 Unity[42819:2282427] Metal devices available: 2
+2021-03-29 11:12:18.521 Unity[42819:2282427] 0: AMD Radeon Pro 5500M (high power)
+2021-03-29 11:12:18.521 Unity[42819:2282427] 1: Intel(R) UHD Graphics 630 (low power)
+2021-03-29 11:12:18.521 Unity[42819:2282427] Using device AMD Radeon Pro 5500M (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500M
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.0b11/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.0b11/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.1.0b11/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56751
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56819
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.1.0b11/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000555 seconds.
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000506 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 62.72 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 50.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.952 seconds
+- Completed reload, in  1.877 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000567 seconds.
+Registered in 0.000467 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 42.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 60.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.226 seconds
+- Completed reload, in  1.345 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launching external process: /Applications/Unity/Hub/Editor/2021.1.0b11/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2991 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 210.2 MB.
-System memory in use after: 208.0 MB.
+Unloading 2996 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.5 MB.
+System memory in use after: 209.5 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3421.
-Total: 3.728382 ms (FindLiveObjects: 0.250180 ms CreateObjectMapping: 0.123700 ms MarkObjects: 1.971188 ms  DeleteObjects: 1.382297 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3451.
+Total: 2.819532 ms (FindLiveObjects: 0.260198 ms CreateObjectMapping: 0.149191 ms MarkObjects: 2.265450 ms  DeleteObjects: 0.143720 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/FlowTests/Scripts/FPS.cs
-  artifactKey: Guid(6ce9d21286c0943a2858038fdccb30f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlowTests/Scripts/FPS.cs using Guid(6ce9d21286c0943a2858038fdccb30f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5581364c852084863222e408a22b34e') in 4.326433 seconds 
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066b95c1e4f4f249538d2c2fb92c3c13') in 1.124511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.172988 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2581aaeaa95405562baa8b6838126b2d') in 0.002942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.173443 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcef28313fb431b4511b37d0f53186d1') in 0.005262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.211533 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b209ccce8dc4752a2d6640bf7b17456c') in 0.002897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.664402 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48c01aa285625f4e510ac32abd1824e') in 0.003956 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000525 seconds.
+Registered in 0.000667 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.334 seconds
+- Completed reload, in  1.187 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.4 MB.
-System memory in use after: 207.2 MB.
+Unloading 2871 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.9 MB.
+System memory in use after: 206.8 MB.
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3424.
-Total: 4.364558 ms (FindLiveObjects: 0.293936 ms CreateObjectMapping: 0.185137 ms MarkObjects: 2.541654 ms  DeleteObjects: 1.342776 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3454.
+Total: 3.982877 ms (FindLiveObjects: 0.522382 ms CreateObjectMapping: 0.350823 ms MarkObjects: 2.947428 ms  DeleteObjects: 0.159591 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.141831 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30f8a1efae4011a6d0d02e714b43ffc') in 0.016059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.021359 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716ad4120183d72c903d362cc7cab43b') in 0.002705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.021156 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39595100215ec3733928d1482dba9d44') in 0.002787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.976218 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c05807cb04f29450960dbf534d1a03') in 0.002705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.934999 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4d358d84f814f7e978cb7250cfadfb') in 0.002653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.540622 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb576ff9b4a66c16f90400823f518dd7') in 0.002869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.708654 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34848be0989812ab328bc45885dc390e') in 0.003115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.827655 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff565a16be65294d94c353dfe27647d') in 0.003049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.309940 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e884edd9d3dca24a59d1e755a0f1f37') in 0.002735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.345087 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab40e348825110279d07f6057df2acf8') in 0.002791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.934651 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f000f35b695af605161712bde951e468') in 0.002955 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.952 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2871 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.3 MB.
+System memory in use after: 207.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3457.
+Total: 2.492145 ms (FindLiveObjects: 0.252452 ms CreateObjectMapping: 0.113756 ms MarkObjects: 2.005487 ms  DeleteObjects: 0.119397 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 225.967523 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffa8267c599fc5da90d3c900d1275da') in 0.019677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.819487 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c0b8dd379eead82b12d29f71ece851') in 0.003947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.574589 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012a5cf92aad0c4d955c6f0334d824bb') in 0.004261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.576239 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5d06e14344dfd0e6899c2a7cb3d0f7') in 0.004427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.841742 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c60cdb374a85d3f8950b77ca734946') in 0.003444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.974647 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92450f38535917aaf6082ecbc6baa99f') in 0.003650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.529975 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5b502856626c6bcb3d5fa11e7813ed') in 0.003474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.696363 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3892bcbb0fd54a7c3b1253aa2411de46') in 0.003543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.861400 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deaf5ddddd24d089b8cbbee3ecc80d50') in 0.003971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.158021 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f54c44d048810715198ae4628f9baa7') in 0.003743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.141431 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3428c1e5cd722cb7ad20451e187888d7') in 0.003770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.466073 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084a73928d7fc920fecdd78eb6057c37') in 0.003686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.233675 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f4feefce357c95b2e30b9e8696f83a') in 0.003751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.441107 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5407c880d2e331b645ec489bc729ac3') in 0.003719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.701621 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c646446644c8c9d0efa22c39eba4e612') in 0.003700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.277066 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b049901ffa0da8bdd8d21f82bdb42e92') in 0.004269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.769299 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad61126fe73284ac22c00abac868160c') in 0.003563 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2871 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.7 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3460.
+Total: 3.820537 ms (FindLiveObjects: 0.491085 ms CreateObjectMapping: 0.263890 ms MarkObjects: 2.868048 ms  DeleteObjects: 0.194967 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.308138 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aba134d0382a2ce6c2ac8e080dc170d') in 0.016539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.308081 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21594b6c825e1f4f9e539492dad1efa') in 0.003644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.057394 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f29f9b5ce944d5e3611fa40cfbe5f41') in 0.003376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.491022 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8a4ad164426fc42ae410cda09e6c54') in 0.003654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.600915 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947fa2203cbb1b5628d82f5c0dd42891') in 0.003981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.171738 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932fbc61596572aa5c3246d92d8fb012') in 0.004063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.657799 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ef1cb950c335392003d6bbcf45651e') in 0.003643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.407033 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701c30255e47a95cf6daf6dd7d1e9ae4') in 0.003273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.569822 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053f66b8528c5a85e3afad31e78f1185') in 0.004125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 175.264987 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c477ed92f25ce4c76c36805a95a3b24') in 0.004090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.326992 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ec595a2a2bcac06268bd02b70cd44f') in 0.003384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.588519 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56044f6df8c9317184f77a86fa133fe') in 0.003341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.340051 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0596b3c79c99f020d93c072b0356fc') in 0.003771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.415204 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d87db92a485209489123d971e0ea38') in 0.003178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.982586 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777b916921712d4affd41bf41daf89bf') in 0.004865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.709627 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198343bb6b9ce369ff594f7c3f7e18af') in 0.003501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.789212 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3084984881ee12113179a1231f8f4397') in 0.004174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.359545 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a799ab0b9132bc3b0d67fef06060825') in 0.004113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.703500 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe8e72feebe31926f880f16c9e577f1') in 0.004489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.585718 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117c82317f567b44a31f537973206f8c') in 0.002093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.121738 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff2d94de0583bd024243728018bcaf6') in 0.004075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.703216 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e10b224853045c6e45d4eb50221e489') in 0.004042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.022741 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27317e54c99084872f5c5eec5f1dc236') in 0.003997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.623190 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f752875c4b25e36c174a888ac8b42e4') in 0.003499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.733003 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72288bb13974001f6f754b402d25765') in 0.003963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.523549 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4c5ba129044b3bda7036d4f8e61f2f') in 0.004394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.494835 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fd9cf50f44e4848705fcf91a42ef59') in 0.004196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.644705 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92082eb3309f0b712c668488ab8e8ae') in 0.005247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.534019 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabf07110803b2a65581dc412e93bd64') in 0.004073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.244589 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b359cea7c2cc8198641ef06d8ce7211') in 0.003995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.547394 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4251fb14b0c6fa9a542671af47f7391') in 0.003573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.818011 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db17ce8114e15088c62fb7453ada82fa') in 0.003853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.915201 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a99f70632b8046ea78f86c558104d7') in 0.003868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.023111 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021d459ecb8cd46d02fb3e9e641fb0d0') in 0.004042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.741788 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cafaa4839c4d280fc8ccf7c5607704') in 0.003687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.503334 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20e415b0e9625134ffaddf7346fde42') in 0.003896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.152780 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab63ab5cd4d3dec886993f26da7a1ae0') in 0.004080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.787729 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1687dff238f7fb64db8ef441182547') in 0.003465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.901249 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07796a6bc0f838f09ba412f94be7835') in 0.003729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.866635 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf5b324241371c721ef5da5cfc15c2a') in 0.004098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.408163 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b86a4da4be06542c225481e4f3a7883') in 0.003264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.567086 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed65037355442be009099e81f336ee6') in 0.003647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.522394 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df11cea4822a650bff48e4986baa0623') in 0.003657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.747229 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8491b5a1c3ba9d6c7185e7f4841079') in 0.004329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 131.312673 seconds.
+  path: Assets/FlowTests/Settings
+  artifactKey: Guid(38802ea40d8df48f78cce521468ea25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/Settings using Guid(38802ea40d8df48f78cce521468ea25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5b12dbae2a9011394eed3e5d01ca93') in 0.002037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.172021 seconds.
+  path: Assets/FlowTests/Settings/New Volume Profile.asset
+  artifactKey: Guid(cb414b96795e7494cb774ff40de0b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/Settings/New Volume Profile.asset using Guid(cb414b96795e7494cb774ff40de0b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbd0c5f64aeb90c423b865be0a42ad4') in 0.341290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.691152 seconds.
+  path: Assets/FlowTests/Settings/New Volume Profile.asset
+  artifactKey: Guid(cb414b96795e7494cb774ff40de0b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/Settings/New Volume Profile.asset using Guid(cb414b96795e7494cb774ff40de0b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b24c7db8ff5e3fa280c532a9343641') in 0.009498 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000596 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.171 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2871 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.3 MB.
+System memory in use after: 212.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3463.
+Total: 3.948980 ms (FindLiveObjects: 0.510681 ms CreateObjectMapping: 0.384457 ms MarkObjects: 2.767010 ms  DeleteObjects: 0.284284 ms)
 
 ========================================================================
 Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Registering precompiled user dll's ...
+Registered in 0.000875 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.0 MB.
-System memory in use after: 150.8 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2871 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.6 MB.
+System memory in use after: 212.6 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3424.
-Total: 3.181674 ms (FindLiveObjects: 0.333208 ms CreateObjectMapping: 0.101536 ms MarkObjects: 1.607984 ms  DeleteObjects: 1.138258 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3466.
+Total: 2.498493 ms (FindLiveObjects: 0.240102 ms CreateObjectMapping: 0.155312 ms MarkObjects: 1.971040 ms  DeleteObjects: 0.131091 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 2595.124104 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfc84dc67f12e0820aa4299d7f8e2a0') in 0.017464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.979997 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b017506121fb87973b4d44c346e7502c') in 0.002729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.815627 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5093fcc5e1efcfc259e9e882ebefcd42') in 0.002603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.572568 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cbe7da537cbc86d86a32c2a230ff00') in 0.003368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.179394 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bad76853a99b2020b6b71b593d9388') in 0.002649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.035019 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502604ce3f3e4ba0cdd366ef1ee82ea5') in 0.003531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.469233 seconds.
+  path: Assets/FlowTests/VFX/BigFlow.vfx
+  artifactKey: Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlowTests/VFX/BigFlow.vfx using Guid(1305f046416fd49a59092d9992ec4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1fdf62646d51d416a2b900d1ef786e') in 0.003228 seconds 
